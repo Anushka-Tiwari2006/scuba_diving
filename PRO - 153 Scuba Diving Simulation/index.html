@@ -10,16 +10,16 @@
   <body>
     <a-scene >
       <a-a-assets>
-        <a-asset-item id="island" src="assets/cartoon_fish/scene.gltf"></a-asset-item>
+        <a-asset-item id="fish" src="assets/cartoon_fish/scene.gltf"></a-asset-item>
 
         <a-asset-item
-          id="xyz"
+          id="fish2"
           src="assets/fish/scene.gltf"
         ></a-asset-item>
-        <a-asset-item id="turtle" src="assets/jellyfish/scene.gltf"></a-asset-item>        
+        <a-asset-item id="jellyfish" src="assets/jellyfish/scene.gltf"></a-asset-item>        
         <a-asset-item
           id="scuba_driver"
-          src="assets/fish/scene.gltf"
+          src="assets/diver/scene.gltf"
         ></a-asset-item>
       </a-a-assets>
 
@@ -31,12 +31,6 @@
         side="double"
         animation="property: rotation; to: 0 300 0; easing:linear; loop: true; dur: 500000"
               ></a-sky>        
-        <a-entity
-          gltf-model="#island"
-          scale="1 1 1"
-          position="0 -15 -40"
-        ></a-entity>
-
       
       </a-sky>
 
